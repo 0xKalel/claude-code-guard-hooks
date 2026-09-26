@@ -1,5 +1,7 @@
 # claude-code-guard-hooks
 
+[![tests](https://github.com/0xKalel/claude-code-guard-hooks/actions/workflows/tests.yml/badge.svg)](https://github.com/0xKalel/claude-code-guard-hooks/actions/workflows/tests.yml)
+
 Two small [Claude Code hooks](https://docs.claude.com/en/docs/claude-code/hooks) from a production SaaS ([RavenClip](https://ravenclip.com)) where agents write most of the code — with the test harness that proves they block what they claim to block.
 
 Rules in a `CLAUDE.md` are advice; an agent under pressure will eventually ignore advice. A hook is enforcement. These are the two smallest pieces of my agent setup that carry the most weight.
